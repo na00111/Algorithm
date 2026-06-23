@@ -2,15 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(solution(8,9));
+        Solution sol = new Solution();
+
+        int result = sol.solution(7,9);
+        System.out.println(result);
+
     }
-
-
-
-        public static int solution(int num1, int num2) {
-            int answer = num1 * num2;
-            return answer;
-
-
-        }
     }
